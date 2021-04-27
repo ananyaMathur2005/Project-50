@@ -1,0 +1,43 @@
+h1 {
+    color : red
+} 
+
+.header{
+    background-color:black;
+    display:flex;
+    justify-content:  space-between ;
+    }
+
+.grid{
+background-color:grey;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end; 
+    }
+    
+    p,h2{
+    text-align: center;
+    }
+
+.menu{
+display:flex;
+justify-content: space-between;
+background-color: black;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: white;
+}
+
+.origami{
+border-radius: 20px;
+background-color: white;
+width: 310px;
+font-family: fantasy;
+}
